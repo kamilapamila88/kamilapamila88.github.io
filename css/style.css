@@ -1,0 +1,191 @@
+/*========================================= CSS Reset ====================================================================================*/
+html, body, h1, h2, h3, h4, h5, h6, p, a, div, ul, li {
+	margin: 0;
+	padding: 0;
+	font-family:'PT Sans', sans-serif;
+	font-size: 100%;
+	font-weight: 400;
+	color:#555;
+}
+/*========================================= general styles ====================================================================================*/
+html { 
+	background: #fff; 
+}
+	h2 { 
+	font-size: 1.6em; 
+	padding: 20px 0 5px; 
+}
+	h3 { 
+	font-size: 1.15em; 
+}
+	h4 { 
+	font-size: 1.05em; 
+}
+	p { 
+	padding: 10px 0; 
+	font-size: .9em; 
+	line-height: 1.5em; 
+	color: #888; 
+}
+h2,h3,h4{
+	font-weight: 700;
+	text-transform: capitalize;
+}
+img.logo{				/*logo*/
+	display:block;
+}
+/*========================================= header/nav ====================================================================================*/
+header{
+	width: 100%;
+	height: 190px;
+	border-top: 11px solid #82c54e;
+	background: #fff;
+	position:relative;
+}
+div.logo{/*undeclass of logo*/
+	background: url('../images/icarnegieLogo.png') no-repeat;
+	width: 304px;
+	height: 66px;
+	position:relative;
+	top:49px;
+	left:57px;
+}
+nav{
+	width: 100%;
+	background:#2f4054;
+	position: absolute;
+	left: 0;
+	bottom:0;
+}
+nav ul { 
+	width: 564px; 
+	overflow: auto; 
+	margin-left:400px;}
+nav ul li { 
+	border-right: 1px solid #555; 
+	float: left; 
+	list-style: none; 
+}
+nav ul li a:link, nav ul li a:visited { 
+	width: 140px; 
+	padding: 6px 0; 
+	color: #fff; 
+	background-color: #8895a3; 
+	font-size: .8em; 
+	display: block;
+	text-decoration:none;
+	text-align: center;
+	display:block;
+}
+nav ul li a:hover,nav ul li a:active{
+	background-color:#82c54e;
+	cursor:default;
+}
+nav ul li a.current{
+background-color:#69737e;
+cursor:default;
+}
+
+
+/*========================================= featureImage ====================================================================================*/
+#featureImage{
+	margin: 60px auto 0;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+}
+/*========================================= main ====================================================================================*/
+
+main {
+  width: 1000 px;
+  padding-top:60;
+  padding-bottom:80;
+  margin-left:auto;
+  margin-right:auto;
+}
+.box{
+	width:1000px;
+	margin:40px auto;
+	padding:25px 30px 30px;
+}
+.infoBox{
+width:940px;
+margin:40px auto;
+padding:25px 30px 30px;
+background:#f1f1f1;
+}
+.infoBox h3{
+width:550px;
+margin:0 0 3px;
+padding:0 0 4px;
+border-bottom:1px solid #999;
+}
+
+.infoBox p{
+width:500px;
+}
+
+.infoBox small{
+font-size:.8em;
+}
+
+.infoBox a:link, .infoBox a:visited{
+color:#888;
+}
+
+.infoBox a:hover, .infoBox a:active{
+color:white;
+transition:color .5s;
+}
+
+.floatRightImg {
+margin:0 0 10px 20px;
+padding:7px;
+border:1px solid #CCC;
+float:right;
+}
+
+/*========================================= footer ====================================================================================*/
+footer {
+background:#666;
+padding-top:25px;
+padding-bottom:60px;
+}
+
+footer h4 {
+padding:10px 0 10px 0;
+color:#ddd;
+
+}
+
+footer .address {
+font-size:.75em;
+line-height:1.6em;
+color:#bbb;
+}
+
+footer div .address a:link, footer div .address a:visited{
+color:#bbb;
+}
+footer div .address a:hover, footer div .address a:active{
+color:white;
+transition:color .5s;
+}
+
+footer .column{
+float:left;
+width:180px;
+padding:0 0 0 10px;
+border-right:2px solid #777;
+}
+
+footer .columnWrapper{
+overflow:auto;
+width:960px;
+margin-left:200px;
+}
+
+.column:last-child{
+border-right:none;
+} 
+	
